@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cookie Pet - Jornada Açucarada</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="title">
+    <h1>🍪 Cookie Pet</h1>
+    <p id="status">Clique no cookie para interagir!</p>
+  </div>
+
+  <div class="container">
+    <div id="cookieSpeech" class="cookie-speech">
+      <p id="cookieTalk">O cookie ainda está cru, precisa de mais interação!</p>
+    </div>
+    <br>
+    <img id="cookieImg" src="assets/cookie_mass.png" alt="Cookie Pet" />
+    <p id="clickCount">Cliques: 0</p>
+  </div>
+
+  <div id="upgrades">
+    <h2>Upgrades</h2>
+  
+    <div class="upgrade-container">
+      <button id="upgradeClick" class="upgrade-btn">
+        <img src="assets/upgrade1.png" alt="Icone" class="icon">
+        <span class="upgrade-text">Melhora Click</span>
+        <span class="price" id="priceClick">10 cookies</span>
+      </button>
+    </div>
+  
+    <div class="upgrade-container">
+      <button id="upgradeCPS" class="upgrade-btn">
+        <img src="assets/upgrade2.png" alt="Icone" class="icon">
+        <span class="upgrade-text">Melhora Cookies por segundo</span>
+        <span class="price" id="priceCPS">20 cookies</span>
+      </button>
+    </div>
+  
+    <div class="upgrade-container">
+      <button id="evolucao1" class="upgrade-btn">
+        <span class="upgrade-text">Gotas de Chocolate</span>
+        <span class="price" id="priceEvo1">500 cookies</span>
+      </button>
+    </div>
+  
+    <div class="upgrade-container"  >
+      <button id="evolucao2" class="upgrade-btn">
+        <span class="upgrade-text">Batalha final contra o forno</span>
+        <span class="price" id="priceEvo2">2000 cookies</span>
+      </button>
+    </div>
+  </div>
+
+  <button id="resetarJogo" class="botao-reset">🔁 Recomeçar Jogo</button>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
