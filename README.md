@@ -4,7 +4,7 @@ Este projeto foi desenvolvida utilizando Html, JavaScript, Css, e Api's como Loc
 
 Cookie Pet é um jogo onde você cuida de um cookie, mas inicialmente seu cookie é apenas uma massa e voce deve evoluilo para um cookie pronto enfrentando diversos desafios no caminho
 
-![](images/cookie_pet.jpg)
+![](images/cookie_pet.png)
 
 
 ## Getting Starts
@@ -25,7 +25,7 @@ Para obter uma cópia local funcionando, siga estes passos simples.
     ```
 
 2. Baixe a extensão LiveServer.
-   ![](images/live_server.jpg)
+   ![](images/live_server.png)
    
 4. Precione com o botão direito no index.html e selecione 'Open with Live Server'
 
